@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Topping</title>
+
+</head>
+<body>
+	<script type="text/javascript">
+		
+		var topping = prompt("Tenemos topping: Solo, Oreo, KitKat, Brownie, Lacasitos." + "                       ¿Qué Topping desea?");
+
+
+			if (topping == 'Solo' || topping == 'solo'){
+				document.write("Usted escogió el helado sin toppin y deberá pagar la cantidad de: $5.90 pesos.");
+			}
+			else if (topping == 'Oreo' || topping == 'oreo') {
+				document.write("Usted escogió el topping de Oreo y deberá pagar la cantidad de: $10 pesos.");
+			} 
+			else if (topping == 'KitaKat' || topping == 'Kitkat'  || topping == 'kitkat')  {
+				document.write("Usted escogió el topping de KitKat y deberá pagar la cantidad de: $6.50 pesos.");
+			}
+			else if (topping == 'Brownie' || topping == 'brownie')  {
+				document.write("Usted escogió el topping de KitKat y deberá pagar la cantidad de: $7.50 pesos.");
+			}
+			else if (topping == 'Lacasitos' || topping == 'lacasitos')  {
+				document.write("Usted escogió el topping de KitKat y deberá pagar la cantidad de: $9	.50 pesos.");
+			}
+			else{
+				document.write("Lo sentimos no contamos con este topping." + "<br>Le dejamos el precio del helado sin topping: $5.90");
+
+			}
+
+	</script>
+</body>
+</html>
